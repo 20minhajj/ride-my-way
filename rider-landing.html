@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ride-My-way</title>
+        <!-- <link rel="stylesheet" href="./style/signup.css"> -->
+        <link rel="stylesheet" href="./style/main.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h2>Ride-My-way</h2>
+            </div>
+        </header>
+        <div id="sidebar">
+            <div class="toggle-button"onclick="toggleSidebar()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <ul>
+                <li><a href="rides-respond-user.html">Notifications</a></li>
+                <li><a href="offers_user.html">Availiable Rides</a></li>
+                <li><a href="rides_taken_user.html">Rides taken</a></li>
+                <li><a href="index.html">Become Driver</a></li>
+                <li><a href="index.html">Logout</a></li>
+               
+            </ul>
+            </div>   
+            <main>
+            
+                <table id="ResponsiveTable">
+                        
+                    <h3 id="TableTitle">Ride Offers </h3> 
+                    <tbody>
+                            <tr id="HeadRow">
+                                    <td><!--ID--></td>
+                                    <td>Driver</td>
+                                    <td>From:</td> 
+                                    <td>To:</td>
+                                    <td>Date</td>
+                                    <td>Departure time</td>                   
+                                    <td>Car NoPlate</td>
+                                    <td>Car Model</td>
+                                    <td><!-- View Detail --></td> 
+                            </tr>
+                                <tr>
+                                    <td tableHeadData="id">1</td>
+                                    <td tableHeadData="Driver">Bennet</td>
+                                    <td tableHeadData="From">Sayansi</td> 
+                                    <td tableHeadData="To:">Posta</td>
+                                    <td tableHeadData="Date">4-may-2019</td>
+                                    <td tableHeadData="Departure time">9:30am</td>                   
+                                    <td tableHeadData="Car Plate">T 645 DNQ</td>
+                                    <td tableHeadData="Car Model">IST</td>
+                                    <td><button><a href="view_offer_user.html">View</a></button></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td tableHeadData="id">2</td>
+                                    <td tableHeadData="Driver">Noel Noja</td>
+                                    <td tableHeadData="From">Tabata Sanene</td> 
+                                    <td tableHeadData="To:">Victoria</td>
+                                    <td tableHeadData="Date">10-may-2019</td>
+                                    <td tableHeadData="Departure time">7:00am</td>                   
+                                    <td tableHeadData="Car Plate">T 777 CSC</td>
+                                    <td tableHeadData="Car Model">Voltz</td>
+                                    <td><button><a href="view_offer_user.html">View</a></button></td>
+                                </tr>
+                                <tr>
+                                    <td tableHeadData="id">3</td>
+                                    <td tableHeadData="Driver">John Doe</td>
+                                    <td tableHeadData="From">Kawe</td> 
+                                    <td tableHeadData="To:">Lumumba</td>
+                                    <td tableHeadData="Date">13-may-2019</td>
+                                    <td tableHeadData="Departure time">10:30am</td>                   
+                                    <td tableHeadData="Car Plate">T 895 DCS</td>
+                                    <td tableHeadData="Car Model">Alphard</td>
+                                    <td><button><a href="view_offer_user.html">View</a></button></td>
+                                </tr>
+                                
+                    </tbody>
+                    
+                </table>
+                
+            </main>
+        <footer>
+
+        </footer>
+        <script src="./script/script.js"></script>
+    </body>
+</html>
