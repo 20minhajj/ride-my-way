@@ -1,0 +1,15 @@
+.index-banner{
+    height: calc(100vh-100px);
+    /* text-align: justify; */
+    color:#111;
+    font-family: 'Great Vibes', cursive;
+    padding-top: 60px;
+    width: 100%;
+    /* display: none; */
+    font-size: 30px;
+}
+.index-banner p{
+    width:calc(100%-20px);
+    margin : 10px;
+    line-height: 1.8;
+ }
